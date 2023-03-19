@@ -1,0 +1,219 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(202, 198, 198);
+    color: gray;
+
+    
+
+    
+
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(202, 198, 198);
+    height: 450px;
+    width: 300px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 227, 227);
+
+    border-radius: 3%;
+    box-shadow: 0 0 15px rgb(7, 7, 7);
+    gap: 10px;
+    
+    
+
+}
+
+.profile{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid rgb(243, 223, 223);
+    box-shadow: 5px 5px 5px black, -1px -1px white;
+    
+        
+
+}
+
+
+.profileName{
+
+    font-weight: 600;
+    color: rgb(0,0,0);
+}
+
+
+.topsection{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.likecomment{
+    display: flex;
+}
+
+
+.socialmedia{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.socialmedia i{
+
+    font-size: 30px;
+}
+
+.mybtn{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.mybtn button{
+
+    padding: 5px 15px;
+    border-radius: 15%;
+    border: 2px solid  rgb(202, 198, 198);
+    box-shadow: 3px 3px 5px black, -2px -2px rgb(255, 255, 255);
+    color:gray;
+    font-weight: 600;
+
+}
+
+
+
+
+.profileName-1{
+
+    font-weight: 500;
+}
+
+
+
+.socialmedia{
+
+    background-color: rgb(243, 223, 223);
+   
+}
+
+.socialmedia i:first-child{
+
+    color: blue;
+    border:  5px solid rgb(243, 223, 223);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+
+
+}
+
+.socialmedia i:nth-child(2){
+
+    color:rgb(20, 164, 221);
+
+    border:  5px solid rgb(243, 223, 223);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+
+}
+
+
+
+.socialmedia i:nth-child(3){
+
+    color: rgb(180, 81, 97);
+
+    border:  5px solid rgb(243, 223, 223);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+
+}
+
+.socialmedia i:last-child{
+
+    color: red;
+    border:  5px solid rgb(243, 223, 223);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+
+}
+
+
+.likesection{
+    display: flex;
+    border-right: 1px solid gray;
+    padding-right: 5px;
+    align-items: center;
+    
+}
+
+.likesection p{
+
+    padding: 10px;
+}
+
+
+
+
+.commentsection{
+
+    display: flex;
+    border-right: 1px solid grey;
+    padding: 5px;
+    align-items: center;
+    
+
+}
+
+
+.comment{
+
+   padding: 10px;
+}
+
+
+
+.sharesection{
+
+    display: flex;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.sharesection p{
+
+    padding: 10px;
+}
+
+
